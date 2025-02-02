@@ -1,0 +1,52 @@
+Last login: Sun Feb  2 20:45:45 on ttys056
+m.@0E-42-D5-B1-23-34 ~ % cd
+m.@0E-42-D5-B1-23-34 ~ % mkdir git_challenge
+m.@0E-42-D5-B1-23-34 ~ % cd git_challenge    
+m.@0E-42-D5-B1-23-34 git_challenge % git init
+Initialized empty Git repository in /Users/m./git_challenge/.git/
+m.@0E-42-D5-B1-23-34 git_challenge % git add .
+m.@0E-42-D5-B1-23-34 git_challenge % git add hello_world.txt
+m.@0E-42-D5-B1-23-34 git_challenge % git commit -m "hello_world.txt"
+[main (root-commit) e76d3ad] hello_world.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+m.@0E-42-D5-B1-23-34 git_challenge % git status
+On branch main
+nothing to commit, working tree clean
+m.@0E-42-D5-B1-23-34 git_challenge % git add hello_world.txt!
+m.@0E-42-D5-B1-23-34 git_challenge % git connit -m "hello_world.txt!"
+dquote> "
+git: 'connit' is not a git command. See 'git --help'.
+
+The most similar commands are
+	commit
+	config
+m.@0E-42-D5-B1-23-34 git_challenge % git commit -m "hello_world.txt!"
+dquote> "
+[main 7e6f3f3] hello_world.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt!
+m.@0E-42-D5-B1-23-34 git_challenge % git commit -m "hello_world.txt"
+On branch main
+nothing to commit, working tree clean
+m.@0E-42-D5-B1-23-34 git_challenge % git ststus
+git: 'ststus' is not a git command. See 'git --help'.
+
+The most similar command is
+	status
+m.@0E-42-D5-B1-23-34 git_challenge % git status
+On branch main
+nothing to commit, working tree clean
+m.@0E-42-D5-B1-23-34 git_challenge % git log
+commit 7e6f3f3a687a87c0d71f007b3a2303786efaa521 (HEAD -> main)
+Author: megumegumi <a.flourrose1223@icloud.com>
+Date:   Sun Feb 2 21:09:27 2025 +0900
+
+    hello_world.txt
+
+commit e76d3ad288ec8fc0914c2397fe82c62be494f8f1
+Author: megumegumi <a.flourrose1223@icloud.com>
+Date:   Sun Feb 2 21:01:23 2025 +0900
+
+    hello_world.txt
+m.@0E-42-D5-B1-23-34 git_challenge % 
